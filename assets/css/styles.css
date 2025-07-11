@@ -484,3 +484,35 @@ img {
     width: 450px;
   }
 }
+/* Dropdown Menu */
+.nav__dropdown {
+  position: relative;
+}
+
+.dropdown__menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* di bawah menu utama */
+  left: 0;
+  background-color: var(--second-color);
+  padding: 0.5rem 0;
+  min-width: 160px;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: var(--z-fixed);
+}
+
+.dropdown__link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.dropdown__link:hover {
+  background-color: var(--first-color);
+}
+
+/* Tampilkan dropdown saat hover */
+.nav__dropdown:hover .dropdown__menu {
+  display: block;
+}

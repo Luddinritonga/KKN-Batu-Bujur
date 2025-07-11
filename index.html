@@ -24,14 +24,26 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">Tentang KKN</a></li>
-                    <li class="nav__item"><a href="#desa" class="nav__link">Profil Desa</a></li>
-                    <li class="nav__item"><a href="#kegiatan" class="nav__link">Kegiatan</a></li>
-                    <li class="nav__item"><a href="#tim" class="nav__link">Tim</a></li>
-                    <li class="nav__item"><a href="#galeri" class="nav__link">Galeri</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Kontak</a></li>
-                    </ul>
+    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+    <li class="nav__item"><a href="#about" class="nav__link">Tentang KKN</a></li>
+    <li class="nav__item"><a href="#desa" class="nav__link">Profil Desa</a></li>
+    <li class="nav__item"><a href="#kegiatan" class="nav__link">Kegiatan</a></li>
+    
+    <li class="nav__item nav__dropdown">
+        <a href="#tim" class="nav__link">Tim</a>
+        <ul class="dropdown__menu">
+            <li><a href="#ketua" class="dropdown__link">Ketua</a></li>
+            <li><a href="#wakil" class="dropdown__link">Wakil Ketua</a></li>
+            <li><a href="#sekretaris" class="dropdown__link">Sekretaris</a></li>
+            <li><a href="#bendahara" class="dropdown__link">Bendahara</a></li>
+            <li><a href="#anggota" class="dropdown__link">Anggota</a></li>
+        </ul>
+    </li>
+    
+    <li class="nav__item"><a href="#galeri" class="nav__link">Galeri</a></li>
+    <li class="nav__item"><a href="#contact" class="nav__link">Kontak</a></li>
+</ul>
+
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -75,16 +87,19 @@
 
             <!--===== ABOUT =====-->
             <section class="about section " id="about">
-                <h2 class="section-title">About Us</h2>
+                <h2 class="section-title">Tentang Kami</h2>
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/kkn_logo.png" alt="">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">we're Roasting Team</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <h2 class="about__subtitle">KKN Batu Bujur</h2>
+                        <p class="about__text">Kami adalah mahasiswa Universitas Labuhanbatu yang melaksanakan Kuliah Kerja Nyata (KKN) di Desa Batubujur, Kecamatan Bilah Barat.
+                        Melalui program ini, kami berkomitmen untuk ikut berkontribusi dalam pembangunan desa melalui berbagai kegiatan sosial, pendidikan, dan pemberdayaan masyarakat.
+
+                        Dengan semangat kebersamaan dan gotong royong, kami berharap kehadiran kami dapat memberikan manfaat nyata bagi warga Desa Batubujur sekaligus menjadi pengalaman berharga dalam pengabdian kepada masyarakat.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -93,11 +108,13 @@
             <h2 class="section-title">Profil Desa</h2>
             <div class="about__container bd-grid">
                 <div class="about__img">
-                <img src="assets/img/desa.jpg" alt="Desa Janji">
+                <img src="assets/img/default.png" alt="Desa Janji">
                 </div>
                 <div>
                 <p class="about__text">
-                    Desa Janji terletak di Kecamatan Bilah Barat. Desa ini memiliki potensi pertanian, UMKM, dan budaya lokal yang kaya. Kami berharap KKN dapat berkontribusi mengembangkan potensi ini.
+                    Desa Janji terletak di Kecamatan Bilah Barat, Kabupaten Labuhanbatu, Sumatera Utara.
+                    Desa ini dikenal dengan suasana pedesaan yang asri, masyarakatnya yang ramah, dan potensi alam serta pertanian yang cukup melimpah.
+                    Sebagai desa yang terus berkembang, Desa Janji memiliki kekayaan budaya dan tradisi lokal yang menjadi daya tarik tersendiri bagi setiap pengunjung.
                 </p>
                 </div>
             </div>
@@ -139,7 +156,7 @@
 </section>
 
             <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
+            <!-- <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 
                 <div class="skills__container bd-grid">          
@@ -200,7 +217,7 @@
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="work section" id="galeri">
   <h2 class="section-title">Galeri</h2>
