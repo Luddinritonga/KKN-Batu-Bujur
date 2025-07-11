@@ -316,6 +316,9 @@ img {
   overflow: hidden;
 }
 .work__img img {
+  width: 100%;
+  height: 250px;          /* atur tinggi seragam */
+  object-fit: cover;     /* agar gambar tetap proporsional dan terpotong rapi */
   transition: 1s;
 }
 .work__img img:hover {
@@ -515,4 +518,46 @@ img {
 /* Tampilkan dropdown saat hover */
 .nav__dropdown:hover .dropdown__menu {
   display: block;
+}
+
+.team__card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  text-align: center;
+  padding: 1rem;
+}
+
+.team__card img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.team__card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: var(--first-color);
+}
+
+.team__card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  color: var(--second-color);
+}
+
+.team__card .motto {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.team__card .social-icons a {
+  font-size: 1.2rem;
+  color: var(--first-color);
+  margin: 0 0.3rem;
+}
+
+.team__card .social-icons a:hover {
+  color: var(--second-color);
 }
