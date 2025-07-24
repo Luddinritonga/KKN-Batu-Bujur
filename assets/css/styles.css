@@ -519,6 +519,10 @@ img {
 .nav__dropdown:hover .dropdown__menu {
   display: block;
 }
+@media (min-width: 768px) {
+  .nav__dropdown:hover .dropdown__menu {
+    display: block;
+  }
 
 .team__card {
   background-color: #fff;
